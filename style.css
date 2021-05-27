@@ -26,13 +26,16 @@
     margin-top: 3em;
     padding: 1em;
     width: 10%;
-    background-color: crimson;
-    color: white;
     border: none;
     border-radius: 64px;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
-.container button:active {
-    border: 2px solid black;
+.container button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
 }
+
 
